@@ -57,8 +57,8 @@ get.results <- function(group, de.obj, th.lfc=2, th.padj=0.05) {
 
 ## load metadata ---------------------------------------------------------------
 # sample info: succumbed only and must pass QC
-meta <- readxl::read_excel("samplesheet.xlsx", "animals")
-meta <- readxl::read_excel("samplesheet.xlsx", "samples") %>%
+meta <- readxl::read_excel("data.xlsx", "animals")
+meta <- readxl::read_excel("data.xlsx", "samples.rnaseq") %>%
         left_join(meta, by="NHP") %>%
         filter(QC, 
                (Outcome=="Succumbed" | Daterange=="Baseline"),
