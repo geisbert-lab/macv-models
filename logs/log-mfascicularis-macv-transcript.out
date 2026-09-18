@@ -1,0 +1,46 @@
+========================JOB INFO=========================
+Job ID: 3372305
+Job name: mfascicularis-macv-transcript
+Start date: Tue Aug  4 20:58:09 CDT 2026
+Current directory: /scratch/09961/jaturcin/macv-models
+=========================================================
+
+[MSG] STEP 1 OF 2: CHECKING INPUTS
+[MSG] Valid genome FASTA file: pipeline/genomes/mfascicularis-macv.fa
+[MSG] Valid annotation GTF file: pipeline/annotations/mfascicularis-macv.gtf
+[MSG] Creating index output directory: pipeline/indices/mfascicularis-macv-transcript
+[MSG] Using GTF feature: transcript
+[MSG] Done checking inputs!
+
+[MSG] STEP 2 OF 2: BUILD STAR INDEX
+luac: cannot read /home1/09961/jaturcin/.cache/lmod/spiderT.x86_64_Linux.lua: Stale file handle
+[MSG] CMD: STAR --runMode genomeGenerate --runThreadN 1 --genomeFastaFiles 'pipeline/genomes/mfascicularis-macv.fa' --sjdbGTFfile 'pipeline/annotations/mfascicularis-macv.gtf' --sjdbGTFfeatureExon transcript --genomeDir 'pipeline/indices/mfascicularis-macv-transcript'
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+	/usr/local/bin/STAR-avx2 --runMode genomeGenerate --runThreadN 1 --genomeFastaFiles pipeline/genomes/mfascicularis-macv.fa --sjdbGTFfile pipeline/annotations/mfascicularis-macv.gtf --sjdbGTFfeatureExon transcript --genomeDir pipeline/indices/mfascicularis-macv-transcript
+	STAR version: 2.7.11b   compiled: 2024-03-19T08:38:59+0000 :/opt/conda/conda-bld/star_1710837244939/work/source
+Aug 04 21:00:37 ..... started STAR run
+Aug 04 21:00:37 ... starting to generate Genome files
+Aug 04 21:01:29 ..... processing annotations GTF
+Aug 04 21:01:47 ... starting to sort Suffix Array. This may take a long time...
+Aug 04 21:02:01 ... sorting Suffix Array chunks and saving them to disk...
+Aug 04 22:23:51 ... loading chunks from disk, packing SA...
+Aug 04 22:25:43 ... finished generating suffix array
+Aug 04 22:25:43 ... generating Suffix Array index
+Aug 04 22:29:01 ... completed Suffix Array index
+Aug 04 22:29:01 ... writing Genome to disk ...
+Aug 04 22:29:06 ... writing Suffix Array to disk ...
+Aug 04 22:29:44 ... writing SAindex to disk
+Aug 04 22:29:47 ..... finished successfully
+[MSG] Building STAR index succeeded
+
+
+Currently Loaded Modules:
+  1) intel/24.0      5) xalt/3.1.1             9) biocontainers/0.1.0
+  2) impi/21.11      6) python/3.12.11        10) star/ctr-2.7.11b--h43eeafb_1
+  3) autotools/1.4   7) TACC
+  4) cmake/4.1.1     8) tacc-apptainer/1.4.1
+
+ 
+
+[MSG] JOB COMPLETE!
+

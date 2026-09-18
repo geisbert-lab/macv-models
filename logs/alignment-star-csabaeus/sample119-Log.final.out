@@ -1,0 +1,37 @@
+                                 Started job on |	Aug 19 05:04:30
+                             Started mapping on |	Aug 19 05:05:01
+                                    Finished on |	Aug 19 05:07:36
+       Mapping speed, Million of reads per hour |	128.00
+
+                          Number of input reads |	5511285
+                      Average input read length |	150
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	2213272
+                        Uniquely mapped reads % |	40.16%
+                          Average mapped length |	146.21
+                       Number of splices: Total |	361682
+            Number of splices: Annotated (sjdb) |	0
+                       Number of splices: GT/AG |	354452
+                       Number of splices: GC/AG |	2268
+                       Number of splices: AT/AC |	157
+               Number of splices: Non-canonical |	4805
+                      Mismatch rate per base, % |	1.77%
+                         Deletion rate per base |	0.07%
+                        Deletion average length |	2.16
+                        Insertion rate per base |	0.05%
+                       Insertion average length |	2.01
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	104746
+             % of reads mapped to multiple loci |	1.90%
+        Number of reads mapped to too many loci |	1743
+             % of reads mapped to too many loci |	0.03%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	0
+       % of reads unmapped: too many mismatches |	0.00%
+            Number of reads unmapped: too short |	3190073
+                 % of reads unmapped: too short |	57.88%
+                Number of reads unmapped: other |	1451
+                     % of reads unmapped: other |	0.03%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	0
+                            % of chimeric reads |	0.00%
