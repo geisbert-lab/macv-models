@@ -1,7 +1,5 @@
 # Pathogenesis and natural history of Machupo virus infection in nonhuman primates: RNA-seq and LEGENDplex analyses
 
-[![DOI](https://zenodo.org/badge/1347714342.svg)](https://doi.org/10.5281/zenodo.22117186)
-
 > Manuscript under review at mBio.
 
 ## RNA-seq methods
